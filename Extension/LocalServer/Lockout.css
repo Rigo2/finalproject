@@ -1,0 +1,121 @@
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url(/LocalServer/images/graphic3.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: bottom right;
+    position: absolute;}
+body{
+    background-color: white;}
+table{
+    background-color: rgba(128, 128, 128, 0.25);
+    width: 100%}
+.header{
+    display: flex;
+    width: 100%;}
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;}
+.sidebyside{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%; }
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%; 
+    margin-right: 10%;}
+.leftside-flex-item{
+    display: flex;
+    justify-content: left;
+    width: 90%; 
+    margin-left: 10%;}
+.rightside-flex-item{
+    display: flex;
+    justify-content: right;
+    width: 90%; 
+    margin-left: 10%;}
+.leftside-header{
+    margin-left: 10%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;}
+.rightside-header{
+    margin-left: 10%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;}
+th{
+    font-size: 20px;
+    justify-content: left;}
+.AlarmsName{
+    width: 70%;
+    font-size: 20px;}
+.AlarmsTime{
+    width:30%;
+    font-size: 20px;
+    text-align: right;}
+.SuggestionsName{
+    width: 80%;
+    font-size: 16px;}
+.SuggestionsIcon{
+    width:20%;
+    font-size: 16px;
+    text-align: left;}
+.twitter{
+    background-color: #4eaa6860;}
+.youtube{
+    background-color: #4eaa6860;}
+.facebook{
+    background-color: #4eaa6860;}
+.reddit{
+    background-color: #4eaa6860;}
+.MenuButton{
+    width: 50%;
+    font-size: 30px;
+    background-color: #4eaa6860;}
+.MenuButton:hover {
+    background-color: #4eaa6890;}
+.accordion {
+    background-color: #4eaa6860;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border-width: 1px;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+    justify-content: center;}
+.active, .accordion:hover {
+    background-color: #4eaa6890;}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    background-color: #4eaa6830;}
+.Page{
+    max-width: 1500px;
+    margin: auto;
+justify-content: center;
+align-content: center;
+align-items: center;}
+
+
+
+
